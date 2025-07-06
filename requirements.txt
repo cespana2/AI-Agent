@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+fastapi-cors
+faiss-cpu
+numpy
+sentence_transformers
+PyMuPDF
+python-multipart
+anthropic
+pydantic
+sqlalchemy
+tiktoken
+pymupdf4llm
+beautifulsoup4
+mammoth

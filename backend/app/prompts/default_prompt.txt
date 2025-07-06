@@ -1,0 +1,18 @@
+Your task is to answer the 'query:' using the 'context:' provided to you. Ensure that you answer the 'query:' only using the provided 'context:'. If no answer can be provided due to not having enough relevant 'context:' then return 'Not enough context to provide an answer.'.
+
+###
+query:
+{{query}}
+
+###
+context:
+{% for chunk in context %}
+    - {{ chunk }}
+{% endfor %}
+###
+When formatting your answer follow the following guidelines:
+- Always generate your output in HTML.
+- Do not add any newlines (\n) to your output.
+
+###
+Your answer:
